@@ -1,0 +1,126 @@
+.importing-container .status-message {
+    margin-bottom: 0;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.importing-container .end-message {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #008000;
+}
+
+.importing-container .status-message img {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.dashicons-insert:before {
+    content: "\f132";
+}
+
+.dashicons-remove:before {
+    content: "\f460";
+}
+
+.remove_flashcard,
+.add_flashcard {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: normal;
+    /* border: 1px solid;
+    border-radius: 50%; */
+    text-align: center;
+    color: #000000;
+    padding-top: 3px;
+
+}
+
+.remove_flashcard span,
+.add_flashcard span {
+    display: block;
+    font-size: inherit;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+}
+#flashcard_table_sortable .upload-container {
+    display: flex;
+    align-items: center;
+}
+#flashcard_table_sortable .upload-container a{
+    margin-left: 5px;
+}
+
+.admin_flashcard_sets .loader-container.full-page {
+    /*position: fixed;*/
+/*    display: flex;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 13%);
+}
+
+.admin_flashcard_sets .loader {
+    border: 5px solid #a2a1a1;
+    border-radius: 50%;
+    border-top: 5px solid #000000;
+    width: 35px;
+    height: 35px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: relative;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.load-more-container {
+    text-align: center;
+    padding: 20px 0 8px;
+}
+#falshcard-details .inside {
+    position: static;
+}
+
+#flashcard_table_sortable a.save_card {
+    display: block;
+    text-align: center;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
